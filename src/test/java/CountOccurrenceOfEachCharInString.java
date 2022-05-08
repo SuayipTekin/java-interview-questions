@@ -5,7 +5,7 @@ public class CountOccurrenceOfEachCharInString {
 
     public static void main(String[] args) {
 
-        countChar("ssss");
+        countChar("I love you");
     }
 
     public static void countChar(String str) {
