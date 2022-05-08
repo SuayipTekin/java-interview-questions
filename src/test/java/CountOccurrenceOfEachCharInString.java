@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountOccurrenceOfEachCharInSting {
+public class CountOccurrenceOfEachCharInString {
 
     public static void main(String[] args) {
 
