@@ -7,11 +7,12 @@ public class CountOccurrenceOfEachCharInString {
 
         countChar("I love you");
     }
+
     public static void countChar(String str) {
 
         Map<Character, Integer> charMap = new HashMap<>();
 
-        char charArray[] = str.toCharArray();
+        char[] charArray = str.toCharArray();
 
         for (char c : charArray) {
             if (charMap.containsKey(c)) {
