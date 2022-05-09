@@ -7,7 +7,6 @@ public class CountOccurrenceOfEachCharInString {
 
         countChar("I love you");
     }
-
     public static void countChar(String str) {
 
         Map<Character, Integer> charMap = new HashMap<>();
@@ -20,7 +19,6 @@ public class CountOccurrenceOfEachCharInString {
             } else {
                 charMap.put(c, 1);
             }
-
         }
         System.out.println(str + " : " + charMap);
     }
